@@ -1,4 +1,4 @@
-let tasksList = [];
+const tasksList = [];
 
 const tasksAddRemove = {
   existingTasks: () => tasksList,
@@ -16,10 +16,10 @@ const tasksAddRemove = {
     tasksList.splice(index, 1);
     return tasksList;
   },
-  resetTasskList: () => {
-    tasksList = [];
-    return tasksList;
-  },
+  // resetTasskList: () => {
+  //   tasksList = [];
+  //   return tasksList;
+  // },
 };
 
 module.exports = { tasksList, tasksAddRemove };

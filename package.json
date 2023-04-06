@@ -4,7 +4,7 @@
   "description": "Create a do List to check everyday task and remove what have been completed",
   "private": true,
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest",
     "deploy": "gh-pages -d dist",
     "start": "webpack serve --open",
     "build": "webpack"
